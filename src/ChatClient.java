@@ -24,7 +24,7 @@ public final class ChatClient {
                         sMess=br.readLine();
                         if(br.readLine()==null) {
                             System.out.println("You have been disconnected from the server.");
-                            break;
+                            System.exit(0);
                         }
                         System.out.println(sMess);
                     }
